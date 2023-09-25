@@ -1,0 +1,29 @@
+{
+  "name": "technical-interview",
+  "version": "1.0.0",
+  "description": "Contains exercices for technical interview",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --experimental-specifier-resolution=node  --loader ts-node/esm src/server.ts",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-sabin/technical-interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel-sabin/technical-interview/issues"
+  },
+  "homepage": "https://github.com/daniel-sabin/technical-interview#readme",
+  "devDependencies": {
+    "@types/node": "^20.6.5",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
